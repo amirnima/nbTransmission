@@ -84,9 +84,9 @@ Here are details about the individual-level covariates and how they were transfo
 Variable | Individual-level | Pair-level  |  Motivation |
 :-------:| :--------------: | :---------: | :-----------------: | 
 X1/Z1 | 2 options: a, b | Z1 = 1 if same <br> Z1 = 0 if different | Sex |
-X2/Z2 | 4 options: a, b, c, d | Z2 = 0 if same <br> Z2 = 0 if different | Nationality |
+X2/Z2 | 4 options: a, b, c, d | Z2 = 1 if same <br> Z2 = 0 if different | Nationality |
 X3/Z3 | 2 options: a, b | Z3 = 1 if a-a <br> Z3 = 2 if b-b <br> Z3 = 3 if a-b <br> Z3 = 4 if b-a | Homelessness |
-X4/Z4 | 10 options: a-j | Z4 = 1 if same <br> Z4 = 2 if adjacent <br> Z4 = 3 if other | County of residence |
+X4/Z4 | 10 options: a-j | Z4 = 1 if same <br> Z4 = 2 if adjacent <br> Z4 = 3 if other | Country of residence |
 timeCat |  infectionDate | Time between cases <br> timeCat = 1 if <1yr <br> timeCat = 2 if 1-2yrs <br> timeCat = 3 if 2-3yrs <br> timeCat = 4 if 3-4yrs. <br> timeCat = 5 if 4-5yrs. <br> timeCat = 6 if >5yrs. | Generation interval |
 
 
